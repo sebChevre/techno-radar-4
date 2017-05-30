@@ -27,11 +27,18 @@
     "zone.js": "^0.8.4",
     "bootstrap": "^3.3.6",
     "jquery": "^3.1.0",
-    "less": "^2.7.1"
+    "less": "^2.7.1",
+    "d3": "^4.2.6"
   },
   "devDependencies": {
     "@types/node": "^6.0.45",
     "@types/jasmine": "2.5.36",
+    "@types/core-js": "0.9.34",
+    "@types/d3-array": "1.0.5",
+    "@types/d3-axis": "1.0.5",
+    "@types/d3-scale": "1.0.4",
+    "@types/d3-selection": "1.0.5",
+    "@types/d3-shape": "1.0.5",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^3.0.4",
     "css-loader": "^0.26.1",
@@ -49,7 +56,6 @@
     "null-loader": "^0.1.1",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.2",
-    "style-loader": "^0.13.1",
     "typescript": "~2.2.1",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.4.1",
