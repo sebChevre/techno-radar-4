@@ -1,3 +1,4 @@
+import {RadarElement} from "./RadarElement";
 /**
  * Created by seb on 25.05.17.
  */
@@ -6,4 +7,7 @@ export class Radar {
     titre: string;
     description:string;
     creation:Date = new Date();
+    elements:RadarElement[] = null;
+
+
 }
