@@ -1,0 +1,28 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{title}}</h3>
+    </div>
+
+    <div class="panel-body container">
+
+
+            <div class="row">
+                <div class="col-md-4 radar-overview-box" *ngFor="let radar of radars"
+                     [class.selected]="hero === selectedHero"
+                     [routerLink]="['/detail',radar.id]">
+                    <div routerLinkActive="active" class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{radar.titre}}{{'['+radar.id+']'}}</h3>
+                        </div>
+                        <div class="panel-body">
+                            {{radar.description}}
+
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+</div>
+
