@@ -9,42 +9,21 @@ import * as d3Axis from "d3-axis";
 import {Router, ActivatedRoute} from "@angular/router";
 
 @Component({
-    selector: 'my-app',
+    selector: 'techno2-app',
     templateUrl: './app.component.html',
-    //styleUrls: ['./app.component.css'],
     styles: [
-        require('./app.style.less').toString()
+        require('./app.style.less').toString(),
+        'app.component.css'
     ]
 })
 export class AppComponent {
 
-    private margin = {top: 20, right: 20, bottom: 30, left: 50};
-    private width: number;
-    private height: number;
-    private x: any;
-    private y: any;
-    private svg: any;
 
-
-    ngOnInit(): void {
-        d3.select("body")
-            .append("span")
-        .text("hello world");
-    }
 
     constructor(
-       // private route: ActivatedRoute,
-        //private router: Router
+
     ) {
 
-
-        /*
-            .append("g")
-            .attr("transform", "translate(" + this.margin.left + "," + this.margin.top + ")");
-*/
-
-
-        // console.log(radar);
 
     }
 }
